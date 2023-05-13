@@ -4,7 +4,9 @@
 2. Input order in the example format:
   - Example 1: 10 IMG 15 FLAC 13 VID
   - Example 2: 15 FLAC
-  - Example 2: 10 IMG 15 FLAC
+  - Example 3: 10 IMG 15 FLAC
+  - Example 4: 12 IMG 15 FLAC 13 VID
+  - Example 5: 22 FLAC
 3. Press enter - the output will be printed below.
 
 ## Conditions and Limitations
