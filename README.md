@@ -36,3 +36,11 @@
 
     Order out of range. Order for IMG should not greater than 40.
 ```
+## Rspec Coverage:
+
+1. Test (computation.rb) computation per [order_count, format_code]. It also covers input that is not divisible from bundles.
+2. Test (order.rb) which is the main class. It covers all kinds of inputs. Example:
+  - All input: 10 IMG 15 FLAC 13 VID
+  - Two input: 10 IMG 15 FLAC
+  - Single input: 10 IMG
+3. Test (validator.rb), which covers the validation formats.
